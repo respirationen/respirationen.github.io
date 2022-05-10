@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>So2 Digitalisering</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel = "icon" href = 
+"pige_uden_toej.jpg" 
+        type = "image/x-icon">
+</head>
+
+<body>
+
+<div class ="sidebar">
+<h4>SO2: Digitalisering</h4>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Søg.." title="Type in a category">
+
+<ul id="myMenu">
+  <li><a href="index.html">Hvad er dette?</a></li> 
+  
+  <div class="emne">
+    <li><a href="hvadr.html" class="active">Respiration</a></li>
+    <li><a class="under" href="hvadr.html">Hvad er respiration?</a></li>
+    <li><a class="under" href="glykolyse.html">Glykolyse</a></li>
+    <li><a class="under" href="citron.html">Citronsyrecyklus</a></li>
+    <li><a class="under-active" href="elek.html">Elektrontransport Kæde</a></li>
+  </div>
+
+  <div class="emne">
+  <li><a href="foto.html">Fotosyntese</a></li>
+  </div>
+
+  <li><a href="quiz.html">Quiz</a></li>
+  <li><a href="logbog.html">Logbog</a></li>
+  <li><a href="hvadh.html">Hvad har vi lært?</a></li>
+  <li><a href="reflek.html">Refleksion</a></li>
+  <li><a href="kilder.html">Kildehenvisning</a></li>
+</ul>
+</div>
+
+<div class="main">
+  <br>
+<h2>Hvad er elektrontransportkæde?</h2>
+<p>Elektrontransportkæden er en række af 5 enzymkompleksers som ligger i den inderste membran i mitokondriet. De 5 enzymkomplekser tager sammen, elektronerne fra NADH og FADH<sub>2</sub> som de fik fra de tidligere stadier i respirationen.</p>
+
+<p>Enzymkomplekserne kan både binde og afgive elektroner, så de kan transporteres fra første kompleks, til næste. Her bruges ilten som den sidste elektronacceptor, eller elektronkompleks fire. Under elektronernes vej gennem komplekserne, dannes der nok energi til at transportere H+ ud til mitokondriets to membraner. Dermed kommer en protongradient.</p>
+
+<p>Der pumpes i alt 10 H<sup>+</sup> gennem membranen for hvert NADH + H<sup>+</sup> og 6 H<sup>+</sup> for hvert FADH<sub>2</sub>.</p>
+
+<p>I det sidste enzymkompleks foregår ATP syntetasen, som danner ATP ud af ADP og Pi. Der skal diffunderes 4 H<sup>+</sup> bare for at danne ét ATP-molekyle. Derfor dannes der altså kun 1,5 molekyler ATP pr. FADH<sub>2</sub>, og 2,5 ATP-molekyler pr. NADH.</p>
+
+<p>Den samlede produktion af ATP i respirationen er 30 ATP for hvert glukosemolekyle, eftersom der dannes 2 ATP i glykolysen og sendes 2 NADH videre til elektrontransportkæden, dermed kan man sige at der altså kommer 7 ATPmolekyler fra glykolysen, men for at få NADH fra cytoplasmaet til mitokondriets matrix, kræver det dog 2 ATP, og der vil være 5 tilbage. Så danner citronsyrecyklussen 2 ATP, 8 NADH, og 2 FADH<sub>2</sub>, hvilket i alt er nok til at skabe 25 ATP. Dermed får man altså i alt 30 ATP pr. glukosemolekyle.</p>
+
+<img class="pic1" src="elektron.png" alt="Udvidet billed af elektrontransportkæde">  
+<br>
+<a href="https://biologibogen.systime.dk/?id=429">Billedet kommer fra systime</a>
+  
+</div>
+
+  
+
+  <script src="script.js"></script>
+</body>
+
+</html>

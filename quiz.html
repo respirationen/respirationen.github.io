@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>So2 Digitalisering</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel = "icon" href = 
+"pige_uden_toej.jpg" 
+        type = "image/x-icon">
+</head>
+
+<body>
+
+<div class ="sidebar">
+<h4>SO2: Digitalisering</h4>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Søg.." title="Type in a category">
+
+<ul id="myMenu">
+  <li><a href="index.html">Hvad er dette?</a></li> 
+  
+  <div class="emne">
+    <li><a href="hvadr.html">Respiration</a></li>
+    <li><a class="under" href="hvadr.html">Hvad er respiration?</a></li>
+    <li><a class="under" href="glykolyse.html">Glykolyse</a></li>
+    <li><a class="under" href="citron.html">Citronsyrecyklus</a></li>
+    <li><a class="under" href="elek.html">Elektrontransport Kæde</a></li>
+  </div>
+
+  <div class="emne">
+  <li><a href="foto.html">Fotosyntese</a></li>
+  </div>
+
+  <li><a class="active" href="quiz.html">Quiz</a></li>
+  <li><a href="logbog.html">Logbog</a></li>
+  <li><a href="hvadh.html">Hvad har vi lært?</a></li>
+  <li><a href="reflek.html">Refleksion</a></li>
+  <li><a href="kilder.html">Kildehenvisning</a></li>
+</ul>
+</div>
+
+<div class="main">
+  <br>
+<h2>Quiz om respiration og fotosyntese</h2>
+  <p>Test dig selv for, at se om du lærte noget af at læse emnerne på vores hjemmeside </p>
+
+
+<form name="quiz" id="quiz">
+  <div>
+    <p>1. Hvad laver respiration?</p>
+      <p><input type="radio" name="question1" value="1a">a) Dyr </p>
+      <p><input type="radio" name="question1" value="1b">b) Planter </p>
+      <p><input type="radio" name="question1" value="1c">c) Fisk </p>
+      <p><input type="radio" name="question1" value="1d">d) Dyr, planter og fisk  </p>
+  </div>
+  <br>
+  <div>
+    <p>2. Hvad laver fotosyntese?</p>
+      <p><input type="radio" name="question2" value="2a">a) Dyr </p>
+      <p><input type="radio" name="question2" value="2b">b) Planter </p>
+      <p><input type="radio" name="question2" value="2c">c) Fisk </p>
+      <p><input type="radio" name="question2" value="2d">d) Dyr, planter og fisk  </p>
+  </div>
+  <br>
+  <div>
+    <p>3. Hvad er formlen for respiration? </p>
+      <p><input type="radio" name="question3" value="3a">a) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6 O<sub>2</sub> + energi → 6 CO<sub>2</sub> + 6 H<sub>2</sub>O</p>
+      <p><input type="radio" name="question3" value="3b">b) 6 CO<sub>2</sub> + 6 H<sub>2</sub>O + energi → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6 O<sub>2</sub></p>
+  </div>
+  <br>
+  <div>
+    <p>4. Hvad er 6 CO<sub>2</sub> + 6 H<sub>2</sub>O + energi → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6 O<sub>2</sub></p>
+      <p><input type="radio" name="question4" value="4a">a) Formlen for respiration </p>
+      <p><input type="radio" name="question4" value="4b">b) Formlen for fotosyntese </p>
+  </div>
+  <br>
+  <div>
+    <p>5. Kan planter lave respiration?</p>
+      <p><input type="radio" name="question5" value="5a">a) Ja </p>
+      <p><input type="radio" name="question5" value="5b">b) Nej </p>
+  </div>
+
+  <input class="knap" type="button" name="" value="Indsend svar!" onclick="check()">
+</form>
+
+<p id="result"></p>
+</div>
+
+  
+
+  <script src="script.js"></script>
+</body>
+
+</html>
